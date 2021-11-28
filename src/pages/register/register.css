@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:400,500");
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #fff;
+}
+
+input {
+    outline: none;
+    border: none;
+    background-image: none;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    padding: 0;
+}
+
+.container-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.signin-form {
+    align-items: center;
+    font-family: 'Inter', Helvetica;
+    border-radius: 12px;
+    box-shadow: 0 0 6px #00000024;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    min-height: 400px;
+    width: 340px;
+    padding: 50px 30px 20px 30px;
+}
+
+.signin-form_title {
+    margin: 0;
+    padding: 0;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    width: 128px;
+}
+
+.signin-form_inner-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.signin-form_label {
+    color: #999999;
+    font-size: 9px;
+    display: block;
+    line-height: 9px;
+    margin-top: 16px;
+}
+
+.signin-form_input {
+    color: #000;
+    font-size: 13px;
+    cursor: pointer;
+    line-height: 25px;
+    border-bottom: 1px solid #3369F3;
+    min-width: 280px;
+}
+
+.signin-form_reg-button {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #3369f3;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 8px;
+    height: 37px;
+    line-height: 37px;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 4em;
+    min-width: 280px;
+}
+
+.signin-form_auth-link {
+    cursor: pointer;
+    color: #3369f3;
+    font-size: 11px;
+    line-height: 11px;
+    margin: auto;
+    margin-top: 14px;
+}
