@@ -27,7 +27,7 @@ input {
 
 .login-form {
     align-items: center;
-    font-family: 'Inter', Helvetica;
+    font-family: 'Inter', sans-serif;
     border-radius: 12px;
     box-shadow: 0 0 6px #00000024;
     display: flex;
@@ -47,7 +47,7 @@ input {
 .login-form_title {
     margin: 0;
     padding: 0;
-    color: #000;
+    color: #1E1E1E;
     font-size: 20px;
     font-weight: 500;
     line-height: 20px;
@@ -64,7 +64,7 @@ input {
 }
 
 .login-form_input {
-    color: #000;
+    color: #1E1E1E;
     font-size: 13px;
     cursor: pointer;
     line-height: 25px;

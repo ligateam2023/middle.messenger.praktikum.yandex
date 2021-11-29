@@ -1,6 +1,22 @@
 {
   "name": "middle.messenger.praktikum.yandex",
   "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": "17.1.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/parcel index.html",
+    "build": "./node_modules/.bin/parcel build index.html"
+  },
+  "keywords": [],
+  "author": "Valery Berezin",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "parcel": "^2.0.1"
+  },
   "dependencies": {
   }
 }

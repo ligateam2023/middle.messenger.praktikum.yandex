@@ -16,7 +16,7 @@ body {
 
 .err500 {
     align-items: center;
-    font-family: 'Inter', Helvetica;
+    font-family: 'Inter', sans-serif;
     display: flex;
     flex-direction: column;
     margin-top: 5em;
