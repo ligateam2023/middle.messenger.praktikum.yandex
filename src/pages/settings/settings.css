@@ -109,3 +109,18 @@ body {
     text-align: right;
     color: #999999;
 }
+
+.settings-page_save-button {
+    text-decoration:none;
+    cursor: pointer;
+    background-color: #3369f3;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 8px;
+    line-height: 37px;
+    text-align: center;
+    margin-top: 1em;
+    width: 280px;
+    height: 37px;
+}
