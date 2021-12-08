@@ -1,6 +1,6 @@
 import Handlebars from 'handlebars';
-import main from './main';
+import register from './register';
 
 document.addEventListener('DOMContentLoaded', () => {
-    console.log(main);
+    console.log(register);
 });

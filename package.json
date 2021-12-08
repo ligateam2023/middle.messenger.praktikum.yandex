@@ -14,9 +14,10 @@
   "author": "Valery Berezin",
   "license": "ISC",
   "devDependencies": {
-    "@anikin/parcel-transformer-handlebars-precompile": "^1.0.1",
     "express": "^4.17.1",
-    "parcel": "^2.0.1"
+    "parcel": "^2.0.1",
+    "handlebars": "^4.7.7",
+    "parcel-transformer-hbs": "^1.0.4"
   },
   "dependencies": {
   }

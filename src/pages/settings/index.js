@@ -1,6 +1,6 @@
 import Handlebars from 'handlebars';
-import main from './main';
+import settings from './settings';
 
 document.addEventListener('DOMContentLoaded', () => {
-    console.log(main);
+    console.log(settings);
 });

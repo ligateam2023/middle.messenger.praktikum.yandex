@@ -1,20 +1,12 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <title>User settings</title>
-    <link href="settings.css" type="text/css" rel="stylesheet">
-</head>
-<body>
 <div class="settings-page">
     <div class="settings-page_first-column">
-        <a class="settings-page_button-back" href="../main/main.html"><img src="../../../static/images/back.svg" alt="Go to main page"/></a>
+        <a class="settings-page_button-back" href="#"><img src="{{ imgBack }}" alt="Go to main page"/></a>
         <input type="hidden" name="avatar" value="">
     </div>
     <div class="settings-page_second-column">
         <div class="settings-page_main-container">
             <div class="settings-page_avatar">
-                <a class="settings-page_button-change-avatar" href="#"><img src="../../../static/images/noimage.svg" alt="Change avatar"/></a>
+                <a class="settings-page_button-change-avatar" href="#"><img src="{{ imgAvatar }}" alt="Change avatar"/></a>
                 <div class="settings-page_display-name">Иван</div>
             </div>
             <div class="settings-page_inner-wrapper">
@@ -59,5 +51,3 @@
         </div>
     </div>
 </div>
-</body>
-</html>
