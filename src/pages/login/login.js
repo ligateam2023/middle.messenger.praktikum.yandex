@@ -3,7 +3,7 @@ import loginTpl from './login.hbs';
 import './login.css';
 
 export function loginPage() {
-    const html = loginTpl({button});
+    const html = loginTpl();
 
     return html;
 }
