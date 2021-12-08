@@ -11,42 +11,33 @@
             </div>
             <div class="settings-page_inner-wrapper">
                 <div class="settings-page_inputrow">
-                    <label for="email" class="settings-page_label">Почта</label>
-                    <input type="text" name="email" class="settings-page_input" value="pochta@yandex.ru">
+                    {{> input labelName="Почта" labelClass="settings-page_label" name="email" type="text" inputClass="settings-page_input" inputValue="pochta@yandex.ru" }}
                 </div>
                 <div class="settings-page_inputrow">
-                    <label for="login" class="settings-page_label">Логин</label>
-                    <input type="text" name="login" class="settings-page_input" value="ivanivanov">
+                    {{> input labelName="Логин" labelClass="settings-page_label" name="login" type="text" inputClass="settings-page_input" inputValue="ivanivanov" }}
                 </div>
                 <div class="settings-page_inputrow">
-                    <label for="first_name" class="settings-page_label">Имя</label>
-                    <input type="text" name="first_name" class="settings-page_input" value="Иван">
+                    {{> input labelName="Имя" labelClass="settings-page_label" name="first_name" type="text" inputClass="settings-page_input" inputValue="Иван" }}
                 </div>
                 <div class="settings-page_inputrow">
-                    <label for="second_name" class="settings-page_label">Фамилия</label>
-                    <input type="text" name="second_name" class="settings-page_input" value="Иванов">
+                    {{> input labelName="Фамилия" labelClass="settings-page_label" name="second_name" type="text" inputClass="settings-page_input" inputValue="Иванов" }}
                 </div>
                 <div class="settings-page_inputrow">
-                    <label for="display_name" class="settings-page_label">Имя в чате</label>
-                    <input type="text" name="display_name" class="settings-page_input" value="Иван">
+                    {{> input labelName="Имя в чате" labelClass="settings-page_label" name="display_name" type="text" inputClass="settings-page_input" inputValue="Иван" }}
                 </div>
                 <div class="settings-page_inputrow">
-                    <label for="phone" class="settings-page_label">Телефон</label>
-                    <input type="text" name="phone" class="settings-page_input" value="+7 (909) 967 30 30">
+                    {{> input labelName="Телефон" labelClass="settings-page_label" name="phone" type="text" inputClass="settings-page_input" inputValue="+7 (909) 967 30 30" }}
                 </div>
                 <div class="settings-page_inputrow">
-                    <label for="old_password" class="settings-page_label">Cтарый пароль</label>
-                    <input type="password" name="old_password" class="settings-page_input" value="••••••••••••">
+                    {{> input labelName="Cтарый пароль" labelClass="settings-page_label" name="old_password" type="password" inputClass="settings-page_input" inputValue="••••••••••••" }}
                 </div>
                 <div class="settings-page_inputrow">
-                    <label for="new_password" class="settings-page_label">Новый пароль</label>
-                    <input type="password" name="new_password" class="settings-page_input" value="••••••••••••">
+                    {{> input labelName="Новый пароль" labelClass="settings-page_label" name="new_password" type="password" inputClass="settings-page_input" inputValue="••••••••••••" }}
                 </div>
                 <div class="settings-page_inputrow settings-page_inputrow-last">
-                    <label for="retype_new_password" class="settings-page_label">Повторите новый пароль</label>
-                    <input type="password" name="retype_new_password" class="settings-page_input" value="••••••••••••">
+                    {{> input labelName="Повторите новый пароль" labelClass="settings-page_label" name="retype_new_password" type="password" inputClass="settings-page_input" inputValue="••••••••••••" }}
                 </div>
-                <a href="#" class="settings-page_save-button">Сохранить</a>
+                {{> button buttonClass="settings-page_save-button" buttonText="Сохранить"}}
             </div>
         </div>
     </div>

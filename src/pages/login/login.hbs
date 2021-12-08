@@ -1,15 +1,9 @@
 <div class="container-center">
-    <div class="login-form">
-        <h1 class="login-form_title">Вход</h1>
-        <div class="login-form_inner-wrapper">
-            <label for="login" class="login-form_label">Логин</label>
-            <input type="text" name="login" class="login-form_input" value="ivanivanov">
+{{#> form formTitle="Вход" formClass="login-form" formTitleClass="login-form_title"}}
+    {{> input labelName="Логин" labelClass="login-form_label" name="login" type="text" inputClass="login-form_input" inputValue="ivanivanov" }}
+    {{> input labelName="Пароль" labelClass="login-form_label" name="password" type="password" inputClass="login-form_input" inputValue="••••••••••••" }}
 
-            <label for="password" class="login-form_label">Пароль</label>
-            <input type="password" name="password" class="login-form_input" value="••••••••••••">
-
-            <a href="#" class="login-form_auth-button">Войти</a>
-            <a href="#" class="login-form_reg-link">Нет аккаунта?</a>
-        </div>
-    </div>
+    {{> button buttonClass="login-form_auth-button" buttonText="Войти"}}
+    {{> button buttonClass="login-form_reg-link" buttonText="Нет аккаунта?"}}
+{{/form}}
 </div>

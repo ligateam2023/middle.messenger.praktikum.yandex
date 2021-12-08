@@ -1,0 +1,65 @@
+.login-form_auth-button {
+    text-decoration:none;
+    cursor: pointer;
+    background-color: #3369f3;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 8px;
+    height: 37px;
+    line-height: 37px;
+    vertical-align: middle;
+    text-align: center;
+    min-width: 280px;
+    margin-top: 12em;
+}
+
+.login-form_reg-link {
+    cursor: pointer;
+    color: #3369f3;
+    font-size: 11px;
+    line-height: 11px;
+    margin: auto;
+    margin-top: 14px;
+}
+
+.signin-form_reg-button {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #3369f3;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 8px;
+    height: 37px;
+    line-height: 37px;
+    vertical-align: middle;
+    text-align: center;
+    min-width: 280px;
+    margin-top: 4em;
+}
+
+.signin-form_auth-link {
+    cursor: pointer;
+    color: #3369f3;
+    font-size: 11px;
+    line-height: 11px;
+    margin: auto;
+    margin-top: 14px;
+}
+
+.settings-page_save-button {
+    text-decoration:none;
+    cursor: pointer;
+    background-color: #3369f3;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 8px;
+    height: 37px;
+    line-height: 37px;
+    vertical-align: middle;
+    text-align: center;
+    width: 280px;
+    margin-top: 1em;
+}

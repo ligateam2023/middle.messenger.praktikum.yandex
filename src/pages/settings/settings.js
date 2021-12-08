@@ -1,4 +1,3 @@
-//import Handlebars from 'handlebars';
 import settingsTpl from './settings.hbs';
 import './settings.css';
 import imgBack from '../../../static/images/back.svg';

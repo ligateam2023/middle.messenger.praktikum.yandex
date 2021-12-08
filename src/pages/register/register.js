@@ -1,4 +1,3 @@
-//import Handlebars from 'handlebars';
 import registerTpl from './register.hbs';
 import './register.css';
 
