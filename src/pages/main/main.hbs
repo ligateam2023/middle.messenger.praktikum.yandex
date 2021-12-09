@@ -1,12 +1,14 @@
 <div class="main-page">
     <div class="main-page_first-column">
         <div class="main-page_settings">
-            {{> button link="settings" buttonClass="main-page_profile-button" buttonText="Профиль"}}
+            {{> button link="settings" buttonClass="main-page_profile-button" buttonText="Настройки"}}<br/>
+            {{> button link="login" buttonText="Выйти"}}<br/>
+            {{> button link="500" buttonText="500"}}<br/>
+            {{> button link="404" buttonText="404"}}<br/>
         </div>
         <div class="main-page_chat-list">Список чатов</div>
     </div>
     <div class="main-page_second-column">
-        {{> button link="login" buttonClass="main-page_logout-button" buttonText="Выйти"}}
         <div class="main-page_container">
             <div class="main-page_chat-feed">Лента переписки</div>
         </div>
