@@ -32,5 +32,9 @@
     "main": {
       "includeNodeModules": ["parcel", "parcel-transformer-hbs", "handlebars", "postcss", "postcss-simple-vars", "express"]
     }
+  },
+  "extends": "@parcel/config-default",
+  "transformers": {
+    "*.hbs": ["parcel-transformer-hbs"]
   }
 }
