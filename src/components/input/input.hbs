@@ -1,4 +1,4 @@
-{{#if labelName}}
-<label for="{{ name }}" class="{{ labelClass }}">{{ labelName }}</label>
+{{#if context.labelName}}
+<label for="{{ context.name }}" class="{{ labelClass }}">{{ context.labelName }}</label>
 {{/if}}
-<input type="{{ type }}" name="{{ name }}" class="{{ inputClass }}" value="{{ inputValue }}">
+<input type="{{ context.type }}" name="{{ context.name }}" class="{{ inputClass }}" value="{{ context.inputValue }}">

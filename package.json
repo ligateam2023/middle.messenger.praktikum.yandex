@@ -17,8 +17,8 @@
     "express": "^4.17.1",
     "parcel": "^2.0.1",
     "handlebars": "^4.7.7",
-    "parcel-transformer-hbs": "^1.0.4"
-  },
-  "dependencies": {
+    "parcel-transformer-hbs": "^1.0.4",
+    "postcss": "^8.4.4",
+    "postcss-simple-vars": "^6.0.3"
   }
 }

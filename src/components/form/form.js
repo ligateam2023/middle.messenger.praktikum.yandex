@@ -1,5 +1,5 @@
 import Handlebars from 'handlebars';
 import form from './form.hbs';
-import './form.css'
+import styles from './form.css';
 
-Handlebars.registerPartial('form', form); //(context) => form({context})
+Handlebars.registerPartial('form', (context, partials) => form({styles: styles, context}, partials));
