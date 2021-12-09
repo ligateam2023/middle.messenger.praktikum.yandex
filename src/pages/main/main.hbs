@@ -1,11 +1,12 @@
 <div class="main-page">
     <div class="main-page_first-column">
         <div class="main-page_settings">
-            <a href="#" class="main-page_profile-button">Профиль</a>
+            {{> button link="settings" buttonClass="main-page_profile-button" buttonText="Профиль"}}
         </div>
         <div class="main-page_chat-list">Список чатов</div>
     </div>
     <div class="main-page_second-column">
+        {{> button link="login" buttonClass="main-page_logout-button" buttonText="Выйти"}}
         <div class="main-page_container">
             <div class="main-page_chat-feed">Лента переписки</div>
         </div>

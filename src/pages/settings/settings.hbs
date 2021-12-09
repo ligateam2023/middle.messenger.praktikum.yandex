@@ -1,6 +1,6 @@
 <div class="settings-page">
     <div class="settings-page_first-column">
-        <a class="settings-page_button-back" href="#"><img src="{{ imgBack }}" alt="Go to main page"/></a>
+        <a data-link="main" class="settings-page_button-back" href="#"><img src="{{ imgBack }}" alt="Go to main page"/></a>
         <input type="hidden" name="avatar" value="">
     </div>
     <div class="settings-page_second-column">
@@ -37,7 +37,7 @@
                 <div class="settings-page_inputrow settings-page_inputrow-last">
                     {{> input labelName="Повторите новый пароль" labelClass="settings-page_label" name="retype_new_password" type="password" inputClass="settings-page_input" inputValue="••••••••••••" }}
                 </div>
-                {{> button buttonClass="settings-page_save-button" buttonText="Сохранить"}}
+                {{> button link="main" buttonClass="settings-page_save-button" buttonText="Сохранить"}}
             </div>
         </div>
     </div>
