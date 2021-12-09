@@ -1,5 +1,1 @@
-import {loginPage} from './pages/login/login.js';
-
-document.addEventListener('DOMContentLoaded', () => {
-    document.body.innerHTML = loginPage();
-});
+import './pages/login/index.js';

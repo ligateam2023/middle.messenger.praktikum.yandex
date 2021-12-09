@@ -1,6 +1,5 @@
-import Handlebars from 'handlebars';
-import main from './main';
+import {mainPage} from "./main.js";
 
 document.addEventListener('DOMContentLoaded', () => {
-    console.log(main);
+    document.body.innerHTML = mainPage();
 });

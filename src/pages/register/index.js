@@ -1,6 +1,5 @@
-import Handlebars from 'handlebars';
-import register from './register';
+import {registerPage} from "./register.js";
 
 document.addEventListener('DOMContentLoaded', () => {
-    console.log(register);
+    document.body.innerHTML = registerPage();
 });

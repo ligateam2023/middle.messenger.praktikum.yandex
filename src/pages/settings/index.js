@@ -1,6 +1,5 @@
-import Handlebars from 'handlebars';
-import settings from './settings';
+import {settingsPage} from "./settings.js";
 
 document.addEventListener('DOMContentLoaded', () => {
-    console.log(settings);
+    document.body.innerHTML = settingsPage();
 });
