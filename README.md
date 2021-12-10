@@ -2,7 +2,7 @@
 
 Предназначен для текстовой коммуникации нескольких пользователей через веб страницу в сети интернет.
 
-Ссылка на pull request: https://github.com/ligateam2023/middle.messenger.praktikum.yandex/pull/1
+Ссылка на pull request: https://github.com/ligateam2023/middle.messenger.praktikum.yandex/pull/2
 
 Cсылка на макет: https://www.figma.com/file/dzyrPJBkSqatRVCyYYdbod/WebChat
 
