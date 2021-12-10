@@ -1,6 +1,6 @@
-<div class="{{context.formClass}}">
-    <h1 class="{{context.formTitleClass}}">{{context.formTitle}}</h1>
-    <div class="form_inner-wrapper">
+<div class="{{lookup styles context.formClass}}">
+    <h1 class="{{lookup styles context.formTitleClass}}">{{context.formTitle}}</h1>
+    <div class="{{styles.[form_inner-wrapper]}}">
         {{> @partial-block }}
     </div>
 </div>

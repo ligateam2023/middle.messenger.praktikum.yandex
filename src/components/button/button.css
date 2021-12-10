@@ -1,9 +1,14 @@
+$royal-blue: #3369f3;
+$white: #fff;
+$font-size-s: 11px;
+$font-size-m2: 13px;
+
 .login-form_auth-button {
     text-decoration:none;
     cursor: pointer;
-    background-color: #3369f3;
-    color: #fff;
-    font-size: 13px;
+    background-color: $royal-blue;
+    color: $white;
+    font-size: $font-size-m2;
     font-weight: 500;
     border-radius: 8px;
     height: 37px;
@@ -16,8 +21,8 @@
 
 .login-form_reg-link {
     cursor: pointer;
-    color: #3369f3;
-    font-size: 11px;
+    color: $royal-blue;
+    font-size: $font-size-s;
     line-height: 11px;
     margin: auto;
     margin-top: 14px;
@@ -26,9 +31,9 @@
 .signin-form_reg-button {
     text-decoration: none;
     cursor: pointer;
-    background-color: #3369f3;
-    color: #fff;
-    font-size: 13px;
+    background-color: $royal-blue;
+    color: $white;
+    font-size: $font-size-m2;
     font-weight: 500;
     border-radius: 8px;
     height: 37px;
@@ -41,8 +46,8 @@
 
 .signin-form_auth-link {
     cursor: pointer;
-    color: #3369f3;
-    font-size: 11px;
+    color: $royal-blue;
+    font-size: $font-size-s;
     line-height: 11px;
     margin: auto;
     margin-top: 14px;
@@ -51,9 +56,9 @@
 .settings-page_save-button {
     text-decoration:none;
     cursor: pointer;
-    background-color: #3369f3;
-    color: #fff;
-    font-size: 13px;
+    background-color: $royal-blue;
+    color: $white;
+    font-size: $font-size-m2;
     font-weight: 500;
     border-radius: 8px;
     height: 37px;

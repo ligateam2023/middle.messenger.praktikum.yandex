@@ -1,34 +1,40 @@
+$royal-blue: #3369f3;
+$eerie-black: #1E1E1E;
+$mountain-mist: #999999;
+$font-size-xs: 9px;
+$font-size-m2: 13px;
+
 .login-form_label {
-    color: #999999;
-    font-size: 9px;
+    color: $mountain-mist;
+    font-size: $font-size-xs;
     display: block;
-    line-height: 9px;
+    line-height: $font-size-xs;
     margin-top: 16px;
 }
 
 .login-form_input {
-    color: #1E1E1E;
-    font-size: 13px;
+    color: $eerie-black;
+    font-size: $font-size-m2;
     cursor: pointer;
     line-height: 25px;
-    border-bottom: 1px solid #3369F3;
+    border-bottom: 1px solid $royal-blue;
     min-width: 280px;
 }
 
 .signin-form_label {
-    color: #999999;
-    font-size: 9px;
+    color: $mountain-mist;
+    font-size: $font-size-xs;
     display: block;
     line-height: 9px;
     margin-top: 16px;
 }
 
 .signin-form_input {
-    color: #1E1E1E;
-    font-size: 13px;
+    color: $eerie-black;
+    font-size: $font-size-m2;
     cursor: pointer;
     line-height: 25px;
-    border-bottom: 1px solid #3369F3;
+    border-bottom: 1px solid $royal-blue;
     min-width: 280px;
 }
 
@@ -39,5 +45,5 @@
 .settings-page_input {
     float: right;
     text-align: right;
-    color: #999999;
+    color: $mountain-mist;
 }

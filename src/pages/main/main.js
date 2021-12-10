@@ -1,8 +1,8 @@
 import mainPageTpl from './main.hbs';
-import './main.css';
+import styles from './main.css';
 
 export function mainPage() {
-    const html = mainPageTpl();
+    const html = mainPageTpl({styles: styles});
 
     return html;
 }
