@@ -1,0 +1,14 @@
+<div class="container-center">
+{{#> form formTitle="Регистрация" formClass="signin-form" formTitleClass="signin-form_title"}}
+    {{> input labelName="Почта" labelClass="signin-form_label" name="email" type="text" inputClass="signin-form_input" inputValue="pochta@yandex.ru" }}
+    {{> input labelName="Логин" labelClass="signin-form_label" name="login" type="text" inputClass="signin-form_input" inputValue="ivanivanov" }}
+    {{> input labelName="Имя" labelClass="signin-form_label" name="first_name" type="text" inputClass="signin-form_input" inputValue="Иван" }}
+    {{> input labelName="Фамилия" labelClass="signin-form_label" name="second_name" type="text" inputClass="signin-form_input" inputValue="Иванов" }}
+    {{> input labelName="Телефон" labelClass="signin-form_label" name="phone" type="text" inputClass="signin-form_input" inputValue="+7 (909) 967 30 30" }}
+    {{> input labelName="Пароль" labelClass="signin-form_label" name="password" type="password" inputClass="signin-form_input" inputValue="••••••••••••" }}
+    {{> input labelName="Пароль (ещё раз)" labelClass="signin-form_label" name="password_again" type="password" inputClass="signin-form_input" inputValue="••••••••••••" }}
+
+    {{> button link="main" buttonClass="signin-form_reg-button" buttonText="Зарегистрироваться"}}
+    {{> button link="login" buttonClass="signin-form_auth-link" buttonText="Войти"}}
+{{/form}}
+</div>

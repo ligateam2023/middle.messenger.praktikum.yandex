@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:500,600");
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #fff;
+}
+
+.settings-page {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+}
+
+.settings-page_first-column {
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 64px;
+    background-color: #FBFBFB;
+    border-right: 1px solid #EAEAEA;
+    align-items: center;
+    justify-content: center;
+}
+
+.settings-page_button-back {
+    text-decoration: none;
+    display: block;
+    width: 28px;
+    height: 28px;
+}
+
+.settings-page_second-column {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.settings-page_main-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+.settings-page_avatar {
+    margin-top: 2em;
+    color: #1E1E1E;
+}
+
+.settings-page_button-change-avatar {
+    text-decoration: none;
+    display: block;
+    width: 130px;
+    height: 130px;
+}
+
+.settings-page_display-name {
+    line-height: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.settings-page_input {
+    outline: none;
+    border: none;
+    background-image: none;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    padding: 0;
+}
+
+.settings-page_inner-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 510px;
+}
+
+.settings-page_inputrow {
+    display: inline-block;
+    border-bottom: 1px solid #EAEAEA;
+    padding: 0.8em 0;
+    font-size: 13px;
+}
+
+.settings-page_inputrow-last {
+    border-bottom: none;
+}
