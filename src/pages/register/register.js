@@ -1,8 +1,8 @@
 import registerTpl from './register.hbs';
-import './register.css';
+import styles from './register.css';
 
 export function registerPage() {
-    const html = registerTpl();
+    const html = registerTpl({styles: styles});
 
     return html;
 }

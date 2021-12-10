@@ -1,8 +1,12 @@
+$eerie-black: #1E1E1E;
+$shadow-gray: #00000024;
+$font-size-l2: 20px;
+
 .login-form {
     align-items: center;
     font-family: 'Inter', sans-serif;
     border-radius: 12px;
-    box-shadow: 0 0 6px #00000024;
+    box-shadow: 0 0 6px $shadow-gray;
     display: flex;
     flex-direction: column;
     margin-top: 4em;
@@ -20,8 +24,8 @@
 .login-form_title {
     margin: 0;
     padding: 0;
-    color: #1E1E1E;
-    font-size: 20px;
+    color: $eerie-black;
+    font-size: $font-size-l2;
     font-weight: 500;
     line-height: 20px;
     text-align: center;
@@ -32,7 +36,7 @@
     align-items: center;
     font-family: 'Inter', sans-serif;
     border-radius: 12px;
-    box-shadow: 0 0 6px #00000024;
+    box-shadow: 0 0 6px $shadow-gray;
     display: flex;
     flex-direction: column;
     margin-top: 2em;
@@ -44,8 +48,8 @@
 .signin-form_title {
     margin: 0;
     padding: 0;
-    color: #1E1E1E;
-    font-size: 20px;
+    color: $eerie-black;
+    font-size: $font-size-l2;
     font-weight: 500;
     line-height: 20px;
     text-align: center;
