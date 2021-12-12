@@ -1,5 +1,5 @@
 import Handlebars from 'handlebars';
 import button from './button.hbs';
-import * as styles from "./button.css";
+import styles from './button.css';
 
-Handlebars.registerPartial('button', (context) => button({context, styles: styles}));
+Handlebars.registerPartial('button', (context) => button({context, styles}));

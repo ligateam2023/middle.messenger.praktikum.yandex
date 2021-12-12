@@ -5,7 +5,7 @@ import '../../components/form/index.js'
 import styles from './login.css'
 
 export function loginPage() {
-    const html = loginTpl({styles: styles});
+    const html = loginTpl({styles});
 
     return html;
 }

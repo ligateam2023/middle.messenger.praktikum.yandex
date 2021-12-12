@@ -4,7 +4,7 @@ import imgBack from '../../../static/images/back.svg';
 import imgAvatar from '../../../static/images/noimage.svg';
 
 export function settingsPage() {
-    const html = settingsTpl({ styles: styles, imgBack: imgBack, imgAvatar: imgAvatar });
+    const html = settingsTpl({styles, imgBack, imgAvatar});
 
     return html;
 }
