@@ -1,7 +1,4 @@
-$royal-blue: #3369f3;
-$white: #fff;
-$font-size-s: 11px;
-$font-size-m2: 13px;
+@import "../../assets/index.css";
 
 .login-form_auth-button {
     text-decoration:none;

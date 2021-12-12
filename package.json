@@ -15,7 +15,7 @@
   "scripts": {
     "dev": "parcel ./static/index.html",
     "start": "parcel -p 3000 ./static/index.html",
-    "build": "parcel build static/index.html --dist-dir dist"
+    "build": "parcel build ./static/index.html --dist-dir dist --public-url ./ --no-source-maps --no-optimize"
   },
   "keywords": [],
   "author": "Valery Berezin",
