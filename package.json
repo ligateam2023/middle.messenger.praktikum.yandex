@@ -5,10 +5,17 @@
   "engines": {
     "node": "17.1.0"
   },
+  "targets": {
+    "main": false,
+    "browser": {
+      "includeNodeModules": true
+    }
+  },
+  "main": "index.js",
   "scripts": {
     "dev": "parcel ./static/index.html",
     "start": "parcel -p 3000 ./static/index.html",
-    "build": "parcel build static/index.html"
+    "build": "parcel build static/index.html --dist-dir dist"
   },
   "keywords": [],
   "author": "Valery Berezin",
@@ -21,18 +28,5 @@
     "parcel-transformer-hbs": "^1.0.4",
     "postcss": "^8.4.4",
     "postcss-simple-vars": "^6.0.3"
-  },
-  "dependencies": {
-    "parcel": "^2.0.1",
-    "@parcel/config-default": "2.0.1",
-    "handlebars": "^4.7.7",
-    "parcel-transformer-hbs": "^1.0.4",
-    "postcss": "^8.4.4",
-    "postcss-simple-vars": "^6.0.3"
-  },
-  "targets": {
-    "main": {
-      "includeNodeModules": ["parcel", "parcel-transformer-hbs", "handlebars", "postcss", "postcss-simple-vars", "express"]
-    }
   }
 }
