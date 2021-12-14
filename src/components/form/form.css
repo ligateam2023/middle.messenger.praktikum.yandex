@@ -1,6 +1,4 @@
-$eerie-black: #1E1E1E;
-$shadow-gray: #00000024;
-$font-size-l2: 20px;
+@import "../../assets/index.css";
 
 .login-form {
     align-items: center;

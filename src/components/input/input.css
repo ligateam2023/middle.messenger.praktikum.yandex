@@ -1,8 +1,4 @@
-$royal-blue: #3369f3;
-$eerie-black: #1E1E1E;
-$mountain-mist: #999999;
-$font-size-xs: 9px;
-$font-size-m2: 13px;
+@import "../../assets/index.css";
 
 .login-form_label {
     color: $mountain-mist;
