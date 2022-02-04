@@ -1,7 +1,7 @@
 import loginTpl from './login.hbs';
-import '../../components/button/index.js'
-import '../../components/input/index.js'
-import '../../components/form/index.js'
+import '../../components/button/index'
+import '../../components/input/index'
+import '../../components/form/index'
 import * as styles from './login.css'
 
 export function loginPage() {

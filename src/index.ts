@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const buttons = document.body.querySelectorAll('[data-link]');
 
-        Array.from(buttons).forEach(button => {
+        Array.from(buttons).forEach((button: HTMLButtonElement) => {
             button.addEventListener('click', () => {
                 render(button.dataset.link);
             });
