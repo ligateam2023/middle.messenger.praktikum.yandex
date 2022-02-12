@@ -1,16 +1,71 @@
 <div class="{{styles.[main-page]}}">
     <div class="{{styles.[main-page_first-column]}}">
-        <div class="{{styles.[main-page_settings]}}">
-            {{> button link="settings" buttonClass="main-page_profile-button" buttonText="Настройки"}}<br/>
-            {{> button link="login" buttonText="Выйти"}}<br/>
-            {{> button link="500" buttonText="500"}}<br/>
-            {{> button link="404" buttonText="404"}}<br/>
+        <div class="{{styles.[main-page_profile]}}">
+            <a href="#" class="{{styles.[main-page_profile-button]}}">Профиль ></a>
         </div>
-        <div class="{{styles.[main-page_chat-list]}}">Список чатов</div>
+        <div class="{{styles.[chat-list_search]}}">
+            <input type="text" name="search" class="{{styles.[chat-list_search_input]}}" placeholder="Поиск" value="">
+        </div>
+        <div class="{{styles.[chat-list]}}">
+            <div class="{{styles.[chat-list_item]}}">
+                <div class="{{styles.[chat-list_avatar]}}"></div>
+                <div class="{{styles.[chat-list_item_center-block]}}">
+                    <div class="{{styles.[chat-list_item_top-block]}}">
+                        <span class="{{styles.[chat-list_name]}}">Андрей</span>
+                        <span class="{{styles.[chat-list_timestamp]}}">10:49</span>
+                    </div>
+                    <div class="{{styles.[chat-list_item_bottom-block]}}">
+                        <span class="{{styles.[chat-list_lastmsg]}}">Изображение</span>
+                        <span class="{{styles.[chat-list_unread_count]}}">2</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="{{styles.[main-page_second-column]}}">
-        <div class="{{styles.[main-page_container]}}">
-            <div class="{{styles.[main-page_chat-feed]}}">Лента переписки</div>
+        <div class="{{styles.[chat_window]}}">
+            <div class="{{styles.[companion-block]}}">
+                <img src="{{ imgAvatar }}" class="{{styles.[companion-block_avatar]}}">
+                <span class="{{styles.[companion-block_name]}}">Вадим</span>
+                <div class="{{styles.[companion-block_options]}}">
+                    <img src="{{ imgDots }}">
+                    <div class="{{styles.[companion_block-options_dialog]}}">
+                        <span class="{{styles.[add_user]}}">Добавить пользователя</span>
+                        <span class="{{styles.[remove_user]}}">Удалить пользователя</span>
+                    </div>
+                </div>
+            </div>
+            <div class="{{styles.[dialog]}}">
+                <div class="{{styles.[message-block_date]}}">19 июня</div>
+                <div class="{{styles.[message-block]}}">
+                    <div class="{{styles.[message-block_content]}}">
+                        Привет! Смотри, тут всплыл интересный кусок лунной космической истории — НАСА в какой-то момент попросила Хассельблад адаптировать модель SWC для полетов на Луну. Сейчас мы все знаем что астронавты летали с моделью 500 EL — и к слову говоря, все тушки этих камер все еще находятся на поверхности Луны, так как астронавты с собой забрали только кассеты с пленкой.
+
+                        Хассельблад в итоге адаптировал SWC для космоса, но что-то пошло не так и на ракету они так никогда и не попали. Всего их было произведено 25 штук, одну из них недавно продали на аукционе за 45000 евро.
+                        <div class="{{styles.[message-block_time]}}">11:56</div>
+                    </div>
+                    <div class="{{styles.[message-block_attach]}}">
+                        <img src="{{ imgExample }}">
+                        <div class="{{styles.[message-block_time]}}">11:56</div>
+                    </div>
+                    <div class="{{styles.[message-block_mymessage]}}">
+                        <div class="{{styles.[message-block_content]}}">
+                            Круто!
+                            <div class="{{styles.[message-block_time]}} {{styles.[readed]}}">12:00</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="{{styles.[message-input]}}">
+                <a href="javascript:void(0);">
+                    <img class="{{styles.[message-input_attach]}}" src="{{ imgAttach }}">
+                </a>
+                <input class="{{styles.[message-input_text]}}" type="text" name="message" value="" placeholder="Сообщение">
+                <a href="javascript:void(0);">
+                    <img class="{{styles.[message-input_send-button]}}" src="{{ imgSend }}">
+                </a>
+                <span class="{{styles.[message-input_error-msg]}}"></span>
+            </div>
         </div>
     </div>
 </div>
